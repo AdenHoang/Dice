@@ -7,6 +7,12 @@ Dice Kashimo;
 Dice Shoko;
 Dice Todo;
 Dice Maki;
+Dice Toji;
+Dice Yuta;
+Dice Panda;
+Dice Kenjaku;
+Dice Geto;
+Dice Jogo;
 int rolls=1;
 int sum=0;
 int totalsum=0; 
@@ -22,38 +28,61 @@ background(255);
   Gojo.randomize();
   Gojo.show();
   
-  Yuji = new Dice(150,50);
+  Yuji = new Dice(85,20);
   Yuji.randomize();
   Yuji.show();
   
-  Megumi = new Dice(250,50);
+  Megumi = new Dice(150,20);
   Megumi.randomize();
   Megumi.show();
   
-  Nobara = new Dice(50,150);
+  Nobara = new Dice(210,20);
   Nobara.randomize();
   Nobara.show();
   
-  Sukuna = new Dice(150,150);
+  Sukuna = new Dice(270,20);
   Sukuna.randomize();
   Sukuna.show();
   
-  Kashimo = new Dice(250,150);
+  Kashimo = new Dice(20,80);
   Kashimo.randomize();
   Kashimo.show();
   
-  Shoko = new Dice(50,250);
+  Shoko = new Dice(85,80);
   Shoko.randomize();
   Shoko.show();
   
-  Todo = new Dice(150,250);
+  Todo = new Dice(150,80);
   Todo.randomize();
   Todo.show();
   
-  Maki = new Dice(250,250);
+  Maki = new Dice(210,80);
   Maki.randomize();
   Maki.show();
   
+  Toji = new Dice(270,80);
+  Toji.randomize();
+  Toji.show();
+  
+  Yuta = new Dice(20,140);
+  Yuta.randomize();
+  Yuta.show();
+  
+  Panda = new Dice(85,140);
+  Panda.randomize();
+  Panda.show();
+  
+  Kenjaku = new Dice(150,140);
+  Kenjaku.randomize();
+  Kenjaku.show();
+  
+  Geto = new Dice(210,140);
+  Geto.randomize();
+  Geto.show();
+  
+  Jogo = new Dice(270,140);
+  Jogo.randomize();
+  Jogo.show();
  
  sum = (Gojo.number)+(Yuji.number)+(Megumi.number)+(Nobara.number)+(Sukuna.number)+(Kashimo.number)+(Shoko.number)+(Todo.number)+(Maki.number);
 totalsum+=sum;
@@ -186,4 +215,8 @@ class Dice {
        ellipse(myX+40,myY+25, 5,5);
     }
   }//end of show
+  
+  
+  
+  
 }//end of class Dice
