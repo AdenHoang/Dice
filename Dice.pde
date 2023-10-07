@@ -33,7 +33,7 @@ int totaldiceon4=0;
 int totaldiceon5=0;
 int totaldiceon6=0;
 void setup(){
-size(350,700);
+size(350,650);
 noLoop();
 }
 
@@ -420,10 +420,6 @@ class Dice {
     }
   }//end of show
   
-  
-  
-  
-}//end of class Dice
   
   
   
