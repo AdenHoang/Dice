@@ -1,4 +1,3 @@
-
 Dice Gojo;
 Dice Yuji;
 Dice Megumi;
@@ -8,6 +7,10 @@ Dice Kashimo;
 Dice Shoko;
 Dice Todo;
 Dice Maki;
+int rolls=1;
+int sum=0;
+int totalsum=0; 
+int totaldiceon1=0;
 void setup(){
 size(350,500);
 noLoop();
@@ -15,7 +18,7 @@ noLoop();
 
 void draw(){
 background(255);
-  Gojo = new Dice(50,50);
+  Gojo = new Dice(20,20);
   Gojo.randomize();
   Gojo.show();
   
@@ -51,13 +54,43 @@ background(255);
   Maki.randomize();
   Maki.show();
   
-  int sum=0;
+ 
  sum = (Gojo.number)+(Yuji.number)+(Megumi.number)+(Nobara.number)+(Sukuna.number)+(Kashimo.number)+(Shoko.number)+(Todo.number)+(Maki.number);
-  text("Total = " + sum, 150, 375);
+totalsum+=sum;
+  text("Sum = " + sum, 150, 320);
+  text("Total Rolls = " + rolls, 150, 340);
+  text("Total Sum Of All Rolls = " + totalsum, 150, 360);
+  float avgsumofallrolls = (float)totalsum/rolls;
+  text("Average Sum Of All Rolls = " + avgsumofallrolls, 150, 380);
+  int diceon1 = 0;
+  if (Gojo.isOne==true)
+  diceon1++;
+  if (Yuji.isOne==true)
+  diceon1++;
+  if (Megumi.isOne==true)
+  diceon1++;
+  if (Nobara.isOne==true)
+  diceon1++;
+  if (Kashimo.isOne==true)
+  diceon1++;
+  if (Maki.isOne==true)
+  diceon1++;
+  if (Todo.isOne==true)
+  diceon1++;
+  if (Shoko.isOne==true)
+  diceon1++;
+  if (Sukuna.isOne==true)
+  diceon1++;
+  totaldiceon1+=diceon1;
+  text("Dice on 1 = " + diceon1, 150, 400);
+  text("Total Dice on 1 = " + totaldiceon1, 150, 420);
+  float avgtotaldiceon1 = (float)totaldiceon1/rolls;
+  text("Average Total Dice on 1 = " + avgtotaldiceon1, 150, 440);
 }
 
 void mousePressed(){
   redraw();
+  rolls++;
 }
 
 class Dice {
@@ -153,8 +186,4 @@ class Dice {
        ellipse(myX+40,myY+25, 5,5);
     }
   }//end of show
-  
-  
-  
-  
 }//end of class Dice
