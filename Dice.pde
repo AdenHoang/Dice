@@ -319,13 +319,191 @@ totalsum+=sum;
   text("Total Dice on 3 = " + totaldiceon3, 5, 590);
   float avgtotaldiceon3 = (float)totaldiceon3/rolls;
   text("Avg Total Dice on 3 = " + avgtotaldiceon3, 5, 610);
+ 
+  stroke(1);
+  line(175, 420, 175, 620);
+  line(15, 410, 335, 410);
+  
+    int diceon4 = 0;
+  if (Gojo.isFour==true)
+  diceon4++;
+  if (Yuji.isFour==true)
+  diceon4++;
+  if (Megumi.isFour==true)
+  diceon4++;
+  if (Nobara.isFour==true)
+  diceon4++;
+  if (Kashimo.isFour==true)
+  diceon4++;
+  if (Maki.isFour==true)
+  diceon4++;
+  if (Todo.isFour==true)
+  diceon4++;
+  if (Shoko.isFour==true)
+  diceon4++;
+  if (Sukuna.isFour==true)
+  diceon4++;
+  if (Toji.isFour==true)
+  diceon4++;
+  if (Panda.isFour==true)
+  diceon4++;
+  if (Yuta.isFour==true)
+  diceon4++;
+  if (Kenjaku.isFour==true)
+  diceon4++;
+  if (Geto.isFour==true)
+  diceon4++;
+  if (Jogo.isFour==true)
+  diceon4++;
+  if (Toge.isFour==true)
+  diceon4++;
+  if (Hakari.isFour==true)
+  diceon4++;
+  if (Utahime.isFour==true)
+  diceon4++;
+  if (Mai.isFour==true)
+  diceon4++;
+  if (Miwa.isFour==true)
+  diceon4++;
+  if (Kento.isFour==true)
+  diceon4++;
+  if (Mei.isFour==true)
+  diceon4++;
+  if (Higuruma.isFour==true)
+  diceon4++;
+  if (Riko.isFour==true)
+  diceon4++;
+  if (Yuki.isFour==true)
+  diceon4++;
+  
+  totaldiceon4+=diceon4;
+  text("Dice on 4 = " + diceon4, 180, 430);
+  text("Total Dice on 4 = " + totaldiceon4, 180, 450);
+  float avgtotaldiceon4 = (float)totaldiceon4/rolls;
+  text("Avg Total Dice on 4 = " + avgtotaldiceon4, 180, 470);
+  
+   int diceon5 = 0;
+  if (Gojo.isFive==true)
+  diceon5++;
+  if (Yuji.isFive==true)
+  diceon5++;
+  if (Megumi.isFive==true)
+  diceon5++;
+  if (Nobara.isFive==true)
+  diceon5++;
+  if (Kashimo.isFive==true)
+  diceon5++;
+  if (Maki.isFive==true)
+  diceon5++;
+  if (Todo.isFive==true)
+  diceon5++;
+  if (Shoko.isFive==true)
+  diceon5++;
+  if (Sukuna.isFive==true)
+  diceon5++;
+  if (Toji.isFive==true)
+  diceon5++;
+  if (Panda.isFive==true)
+  diceon5++;
+  if (Yuta.isFive==true)
+  diceon5++;
+  if (Kenjaku.isFive==true)
+  diceon5++;
+  if (Geto.isFive==true)
+  diceon5++;
+  if (Jogo.isFive==true)
+  diceon5++;
+  if (Toge.isFive==true)
+  diceon5++;
+  if (Hakari.isFive==true)
+  diceon5++;
+  if (Utahime.isFive==true)
+  diceon5++;
+  if (Mai.isFive==true)
+  diceon5++;
+  if (Miwa.isFive==true)
+  diceon5++;
+  if (Kento.isFive==true)
+  diceon5++;
+  if (Mei.isFive==true)
+  diceon5++;
+  if (Higuruma.isFive==true)
+  diceon5++;
+  if (Riko.isFive==true)
+  diceon5++;
+  if (Yuki.isFive==true)
+  diceon5++;
+  
+  totaldiceon5+=diceon5;
+  text("Dice on 5 = " + diceon5, 180, 500);
+  text("Total Dice on 5 = " + totaldiceon5, 180, 520);
+  float avgtotaldiceon5 = (float)totaldiceon5/rolls;
+  text("Avg Total Dice on 5 = " + avgtotaldiceon5, 180, 540);
+  
+     int diceon6 = 0;
+  if (Gojo.isSix==true)
+  diceon6++;
+  if (Yuji.isSix==true)
+  diceon6++;
+  if (Megumi.isSix==true)
+  diceon6++;
+  if (Nobara.isSix==true)
+  diceon6++;
+  if (Kashimo.isSix==true)
+  diceon6++;
+  if (Maki.isSix==true)
+  diceon6++;
+  if (Todo.isSix==true)
+  diceon6++;
+  if (Shoko.isSix==true)
+  diceon6++;
+  if (Sukuna.isSix==true)
+  diceon6++;
+  if (Toji.isSix==true)
+  diceon6++;
+  if (Panda.isSix==true)
+  diceon6++;
+  if (Yuta.isSix==true)
+  diceon6++;
+  if (Kenjaku.isSix==true)
+  diceon6++;
+  if (Geto.isSix==true)
+  diceon6++;
+  if (Jogo.isSix==true)
+  diceon6++;
+  if (Toge.isSix==true)
+  diceon6++;
+  if (Hakari.isSix==true)
+  diceon6++;
+  if (Utahime.isSix==true)
+  diceon6++;
+  if (Mai.isSix==true)
+  diceon6++;
+  if (Miwa.isSix==true)
+  diceon6++;
+  if (Kento.isSix==true)
+  diceon6++;
+  if (Mei.isSix==true)
+  diceon6++;
+  if (Higuruma.isSix==true)
+  diceon6++;
+  if (Riko.isSix==true)
+  diceon6++;
+  if (Yuki.isSix==true)
+  diceon6++;
+  
+  totaldiceon6+=diceon6;
+  text("Dice on 6 = " + diceon6, 180, 570);
+  text("Total Dice on 6 = " + totaldiceon6, 180, 590);
+  float avgtotaldiceon6 = (float)totaldiceon6/rolls;
+  text("Avg Total Dice on 6 = " + avgtotaldiceon6, 180, 610);
 }
 
 void mousePressed(){
   redraw();
   rolls++;
 }
-
+//start of class for Dice... Most code above operates using this class
 class Dice {
   //A Dice has a square(the dice), a random value between of 1-6(display w circles)
   int myX, myY, number;
@@ -419,8 +597,4 @@ class Dice {
        ellipse(myX+40,myY+25, 5,5);
     }
   }//end of show
-  
-  
-  
-  
-}//end of class Dice
+  }//end of class Dice
